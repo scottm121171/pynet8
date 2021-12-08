@@ -22,8 +22,8 @@ list = [
 for my_var in list:
     print(my_var)
 
-print(f'{int(oct1):08b} {int(oct2):08b} {int(oct3):08b} {int(oct4):08b}')
 oct4 = 0
 print(oct4)
 
-print(f"{oct1:<12} {oct2:<12} {oct3:<12} {oct4:<12}", '{int(oct1):08b} {int(oct2):08b} {int(oct3):08b} {int(oct4):08b}')
+print(f"{oct1:<12} {oct2:<12} {oct3:<12} {oct4:<12}")
+print(f'{int(oct1):08b} {int(oct2):08b} {int(oct3):08b} {int(oct4):08b}')
